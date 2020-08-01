@@ -50,6 +50,9 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - image_source/super_sentai_logo.jpeg
+    - image_source/jetman_icon.jpeg
+    - image_source/versus_icon.jpeg
+    - image_source/all_red_sentai.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

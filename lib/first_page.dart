@@ -73,7 +73,7 @@ class _ProgressOpenerScreen extends State<ProgressOpenerScreen>{
   }
 
   _loadData() async{
-    var duration = new Duration(seconds: 5);
+    var duration = new Duration(seconds: 3);
     return new Timer(duration, route);
   }
 
