@@ -7,7 +7,7 @@ class ContainerScreen extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Super Sentai Info",
+          "List Sentai",
           style: TextStyle(fontSize: 20, color: Colors.white),
         ),
         backgroundColor: Colors.lightBlueAccent,
@@ -23,14 +23,14 @@ class ContainerScreen extends StatelessWidget{
                     children: <Widget>[
                       Image.asset(
                         "image_source/jetman_icon.jpeg",
-                        height: 30,
-                        width: 30,
+                        height: 40,
+                        width: 40,
                       ),
                       Padding(
                         padding: EdgeInsets.only(left: 5.0),
                         child: Text(
                           "List Sentai",
-                          style: TextStyle(color: Colors.lightBlueAccent,fontSize: 15),
+                          style: TextStyle(color: Colors.lightBlueAccent,fontSize: 18),
                         ),
                       )
                     ],
@@ -44,18 +44,19 @@ class ContainerScreen extends StatelessWidget{
                     children: <Widget>[
                       Image.asset(
                         "image_source/versus_icon.jpeg",
-                        height: 30,
-                        width: 30,
+                        height: 40,
+                        width: 40,
                       ),
                       Padding(
                         padding: EdgeInsets.only(left: 5.0),
                         child: Text(
                           "Cross Over",
-                          style: TextStyle(color: Colors.lightBlueAccent,fontSize: 15),
+                          style: TextStyle(color: Colors.lightBlueAccent,fontSize: 18),
                         ),
                       )
                     ],
                   ),
+                  onTap: (){},
                 )
               ],
             ),
