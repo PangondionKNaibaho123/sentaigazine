@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sentaigazine/list_sentai.dart';
 
 class ContainerScreen extends StatelessWidget{
   @override
@@ -63,6 +64,7 @@ class ContainerScreen extends StatelessWidget{
           ],
         ),
       ),
+      body: ListSentaiScreen(),
     );
   }
 

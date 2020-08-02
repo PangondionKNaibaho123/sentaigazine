@@ -5,7 +5,7 @@ class Sentai{
   String gambarUtama;
   List<String> urlGambarTokoh;
   List<String> listNamaTokoh;
-  List<String> urlVideo;
+  String urlVideo;
   List<String> urlMerchandise;
 
   Sentai({
