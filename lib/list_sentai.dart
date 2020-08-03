@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sentaigazine/app_model/model_sentai.dart';
+import 'package:sentaigazine/sentai_detail.dart';
 
 class ListSentaiScreen extends StatelessWidget{
   @override
@@ -8,7 +9,9 @@ class ListSentaiScreen extends StatelessWidget{
     return ListView(
       children: modelSentaiList.map((sentaiList){
         return FlatButton(
-          onPressed: (){},
+          onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context) => sentaiDetailScreen(sentai: sentaiList)));
+          },
           child: Card(
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -53,7 +56,7 @@ var modelSentaiList = [
   Sentai(
     namaSentai: "Himitsu Sentai Goranger",
     tahunProduksi: "1975-1977",
-    deskripsiSentai: "Himitsu Sentai Goranger merupakan generasi pertama dalam Super Sentai. Sentai ini memiliki jumlah episode sebanyak 84 episode",
+    deskripsiSentai: "Himitsu Sentai Goranger merupakan generasi pertama dalam Super Sentai. Sentai ini memiliki jumlah episode sebanyak 84 episode. Sentai ini bercerita tentang",
     gambarUtama: "image_source/goranger.jpeg",
     urlGambarTokoh: [
       "https://vignette.wikia.nocookie.net/super-sentaiseries/images/0/02/TsuyoshiKaijou.jpg/revision/latest?cb=20151121144252",

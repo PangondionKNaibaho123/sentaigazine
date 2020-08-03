@@ -1,0 +1,192 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:sentaigazine/app_model/model_sentai.dart';
+
+class sentaiDetailScreen extends StatelessWidget{
+
+  final Sentai sentai;
+
+  sentaiDetailScreen({@required this.sentai});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Stack(
+              children: <Widget>[
+                Image.asset(sentai.gambarUtama),
+                SafeArea(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      IconButton(
+                        icon: Icon(Icons.arrow_back),
+                        color: Colors.white,
+                        onPressed: (){
+                          Navigator.pop(context);
+                        },
+                      )
+                    ],
+                  ),
+                )
+              ],
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 16.0),
+              child: Text(
+                sentai.namaSentai,
+                style: TextStyle(color: Colors.black, fontSize: 25),
+                textAlign: TextAlign.center,
+              )
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 20.0),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Icon(
+                    Icons.timelapse,
+                    size: 30,
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(left: 15.0),
+                    child: Text(
+                      sentai.tahunProduksi,
+                      style: TextStyle(color: Colors.black, fontSize: 20),
+                      textAlign: TextAlign.center,
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 16.0, left: 10.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "Sentai Story",
+                    style: TextStyle(color: Colors.lightBlueAccent, fontSize: 22),
+                  ),
+                  Divider(
+                    color: Colors.lightBlueAccent,
+                    endIndent: 150,
+                  ),
+                  Container(
+                    padding: EdgeInsets.only(right: 25),
+                    child: Text(
+                        sentai.deskripsiSentai,
+                        style: TextStyle(color: Colors.black, fontSize: 18),
+                        textAlign: TextAlign.justify,
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 16.0, left: 10.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "Sentai Character",
+                    style: TextStyle(color: Colors.lightBlueAccent, fontSize: 22),
+                  ),
+                  Divider(
+                    color: Colors.lightBlueAccent,
+                    endIndent: 150,
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(top: 16, bottom: 16),
+                    height: 150,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: sentai.urlGambarTokoh.map((urlPictTokoh){
+                        return Padding(
+                          padding: const EdgeInsets.all(4.0),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Image.network(urlPictTokoh),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 16.0, left: 10.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "Sentai Video",
+                    style: TextStyle(color: Colors.lightBlueAccent, fontSize: 22),
+                  ),
+                  Divider(
+                    color: Colors.lightBlueAccent,
+                    endIndent: 150,
+                  ),
+                  Container(
+                    padding: EdgeInsets.only(right: 25),
+                    child: Text(
+                      "Video sentai ini dapat kalian nikmati di link di bawah ini",
+                      style: TextStyle(color: Colors.black, fontSize: 18),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(right: 25, top: 16),
+                    child: Text(
+                      "Menuju Link >>>",
+                      style: TextStyle(color: Colors.lightBlueAccent, fontSize: 18),
+                      textAlign: TextAlign.justify,
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 16.0, left: 10.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    "Sentai Merchandise",
+                    style: TextStyle(color: Colors.lightBlueAccent, fontSize: 22),
+                  ),
+                  Divider(
+                    color: Colors.lightBlueAccent,
+                    endIndent: 150,
+                  ),
+                  Container(
+                    padding: EdgeInsets.only(right: 25),
+                    child: Text(
+                      "Berbagai Merchandise sentai ini dapat kalian temukan di bawah ini",
+                      style: TextStyle(color: Colors.black, fontSize: 18),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(right: 25, top: 16),
+                    child: Text(
+                      "Menuju Link >>>",
+                      style: TextStyle(color: Colors.lightBlueAccent, fontSize: 18),
+                      textAlign: TextAlign.justify,
+                    ),
+                  )
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+  
+}
