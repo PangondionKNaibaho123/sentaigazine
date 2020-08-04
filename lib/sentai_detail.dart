@@ -2,6 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:sentaigazine/app_model/model_sentai.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+
 
 class sentaiDetailScreen extends StatelessWidget{
 
@@ -143,7 +147,7 @@ class sentaiDetailScreen extends StatelessWidget{
                   Container(
                     margin: EdgeInsets.only(right: 25, top: 16),
                     child: Text(
-                      "Menuju Link >>>",
+                      "Menuju link >>>",
                       style: TextStyle(color: Colors.lightBlueAccent, fontSize: 18),
                       textAlign: TextAlign.justify,
                     ),
@@ -174,11 +178,45 @@ class sentaiDetailScreen extends StatelessWidget{
                   ),
                   Container(
                     margin: EdgeInsets.only(right: 25, top: 16),
-                    child: Text(
-                      "Menuju Link >>>",
-                      style: TextStyle(color: Colors.lightBlueAccent, fontSize: 18),
-                      textAlign: TextAlign.justify,
-                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Container(
+                          padding: EdgeInsets.all(10.0),
+                          child: FlatButton(
+                              color: Colors.green,
+                              splashColor: Colors.lightGreenAccent,
+                              child: Text(
+                                "Tokopedia",
+                                style: TextStyle(color: Colors.white, fontSize: 16),
+                              ),
+                              onPressed: (){
+                                launchURLToped(sentai.urlMerchandise1);
+                              },
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10.0)
+                              ),
+                          ),
+                        ),
+                        Container(
+                          padding: EdgeInsets.all(10.0),
+                          child: FlatButton(
+                              color: Colors.pinkAccent,
+                              splashColor: Colors.pink,
+                              child: Text(
+                                "Bukalapak",
+                                style: TextStyle(color: Colors.white, fontSize: 16),
+                              ),
+                              onPressed: (){
+                                launchURLBukalapak(sentai.urlMerchandise2);
+                              },
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10.0)
+                              ),
+                          ),
+                        )
+                      ],
+                    )
                   )
                 ],
               ),
@@ -187,6 +225,22 @@ class sentaiDetailScreen extends StatelessWidget{
         ),
       ),
     );
+  }
+
+  void launchURLToped(command) async{
+    if(await canLaunch(command)){
+      await launch(command);
+    }else{
+      print("couldn't launch $command");
+    }
+  }
+
+  void launchURLBukalapak(command) async{
+    if(await canLaunch(command)){
+      await launch(command);
+    }else{
+      print("couldn't launch $command");
+    }
   }
   
 }

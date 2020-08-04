@@ -6,7 +6,8 @@ class Sentai{
   List<String> urlGambarTokoh;
   List<String> listNamaTokoh;
   String urlVideo;
-  List<String> urlMerchandise;
+  String urlMerchandise1;
+  String urlMerchandise2;
 
   Sentai({
     this.namaSentai,
@@ -16,7 +17,8 @@ class Sentai{
     this.urlGambarTokoh,
     this.listNamaTokoh,
     this.urlVideo,
-    this.urlMerchandise
+    this.urlMerchandise1,
+    this.urlMerchandise2
   });
 
 }

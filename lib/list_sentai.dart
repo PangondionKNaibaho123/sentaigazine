@@ -73,10 +73,9 @@ var modelSentaiList = [
       "Peggy Matsuyama"
     ],
     urlVideo: "",
-    urlMerchandise: [
-      "https://www.tokopedia.com/search?st=product&q=goranger",
-      "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=goranger&search_source=omnisearch_keyword&source=navbar"
-    ]
+    urlMerchandise1 : "https://www.tokopedia.com/search?st=product&q=goranger",
+    urlMerchandise2 :  "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=goranger&search_source=omnisearch_keyword&source=navbar"
+
   ),
   Sentai(
     namaSentai: "JAKQ Dengeketai",
@@ -98,9 +97,8 @@ var modelSentaiList = [
       "Sokichi Banba"
     ],
     urlVideo: "",
-    urlMerchandise: [
-      "https://www.tokopedia.com/search?st=product&q=jakq%20",
-      "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=jakq&search_source=omnisearch_keyword&source=navbar"
-    ]
+    urlMerchandise1 : "https://www.tokopedia.com/search?st=product&q=jakq%20",
+    urlMerchandise2 : "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=jakq&search_source=omnisearch_keyword&source=navbar"
+
   )
 ];
