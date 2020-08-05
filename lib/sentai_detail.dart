@@ -1,15 +1,21 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:sentaigazine/app_model/daftar_sentai.dart';
 import 'package:sentaigazine/app_model/model_sentai.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:sentaigazine/sentai_detail.dart';
 
 
 
 class sentaiDetailScreen extends StatelessWidget{
 
   final Sentai sentai;
+
+
 
   sentaiDetailScreen({@required this.sentai});
 
@@ -108,17 +114,17 @@ class sentaiDetailScreen extends StatelessWidget{
                     margin: EdgeInsets.only(top: 16, bottom: 16),
                     height: 150,
                     child: ListView(
-                      scrollDirection: Axis.horizontal,
-                      children: sentai.urlGambarTokoh.map((urlPictTokoh){
-                        return Padding(
-                          padding: const EdgeInsets.all(4.0),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Image.network(urlPictTokoh),
-                          ),
-                        );
-                      }).toList(),
-                    ),
+                    scrollDirection: Axis.horizontal,
+                    children: sentai.urlGambarTokoh.map((urlPictTokoh){
+                      return Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.network(urlPictTokoh),
+                        ),
+                      );
+                    }).toList(),
+                  )
                   )
                 ],
               ),
