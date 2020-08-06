@@ -3,19 +3,12 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:sentaigazine/app_model/daftar_sentai.dart';
 import 'package:sentaigazine/app_model/model_sentai.dart';
-import 'package:webview_flutter/webview_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:sentaigazine/sentai_detail.dart';
-
-
 
 class sentaiDetailScreen extends StatelessWidget{
 
   final Sentai sentai;
-
-
 
   sentaiDetailScreen({@required this.sentai});
 
@@ -152,11 +145,17 @@ class sentaiDetailScreen extends StatelessWidget{
                   ),
                   Container(
                     margin: EdgeInsets.only(right: 25, top: 16),
-                    child: Text(
-                      "Menuju link >>>",
-                      style: TextStyle(color: Colors.lightBlueAccent, fontSize: 18),
-                      textAlign: TextAlign.justify,
-                    ),
+                    child: InkWell(
+                      child: Text(
+                        "Menuju link >>>",
+                        style: TextStyle(color: Colors.lightBlueAccent, fontSize: 18),
+                      ),
+                      onTap: () async{
+                        if(await canLaunch(sentai.urlVideo)){
+                          await launch(sentai.urlVideo);
+                        }
+                      },
+                    )
                   )
                 ],
               ),
@@ -242,6 +241,14 @@ class sentaiDetailScreen extends StatelessWidget{
   }
 
   void launchURLBukalapak(command) async{
+    if(await canLaunch(command)){
+      await launch(command);
+    }else{
+      print("couldn't launch $command");
+    }
+  }
+
+  void launchLinkVideo(command) async{
     if(await canLaunch(command)){
       await launch(command);
     }else{
