@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sentaigazine/apps_drawer.dart';
+import 'package:sentaigazine/main_content/list_crossover.dart';
 
 class CrossoverContainer extends StatelessWidget{
   @override
@@ -14,6 +15,7 @@ class CrossoverContainer extends StatelessWidget{
         backgroundColor: Colors.lightBlueAccent,
       ),
       drawer: appsDrawer(),
+      body: ListCrossoverScreen(),
     );
   }
 
