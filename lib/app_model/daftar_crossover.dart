@@ -6,7 +6,7 @@ var modelCrossoverList = [
     waktuRilis: "8 Maret 1996",
     deskripsi: "Ohranger vs Kakuranger merupakan crossover pertama dalam dunia Super Sentai. Crossover ini mengisahkan tentang sekelompok musuh jahat",
     urlMovie: "https://movie.ryuzakilogia.net/ohranger-vs-kakuranger-the-movie-subtitle-indonesia/",
-    gambarCrossover: "https://vignette.wikia.nocookie.net/powerrangers/images/9/93/Ohranger_VS_Kakuranger.jpg/revision/latest?cb=20121119103543"
+    gambarCrossover: "https://kevinfoyle.files.wordpress.com/2017/05/choriki_sentai_ohranger_the_movie1.jpg"
   ),
   SentaiCrossover(
     namaMovie: "Gekisou Sentai Carranger\nvs\nChouriki Sentai Ohranger",
