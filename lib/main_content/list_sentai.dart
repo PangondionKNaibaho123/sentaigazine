@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sentaigazine/sentai_detail.dart';
+import 'file:///C:/Users/dionk/AndroidStudioProjects/sentaigazine/lib/main_content/sentai_detail.dart';
 
-import 'app_model/daftar_sentai.dart';
+import '../app_model/daftar_sentai.dart';
 
 class ListSentaiScreen extends StatelessWidget{
   @override

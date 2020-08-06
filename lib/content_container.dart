@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sentaigazine/apps_drawer.dart';
-import 'package:sentaigazine/list_sentai.dart';
+import 'file:///C:/Users/dionk/AndroidStudioProjects/sentaigazine/lib/main_content/list_sentai.dart';
 
 class ContainerScreen extends StatelessWidget{
   @override
