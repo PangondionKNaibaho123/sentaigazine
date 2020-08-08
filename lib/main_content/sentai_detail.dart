@@ -89,7 +89,7 @@ class sentaiDetailScreen extends StatelessWidget{
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Icon(
-                                Icons.timelapse,
+                                Icons.date_range,
                                 size: 30,
                               ),
                               Container(
