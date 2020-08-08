@@ -3,6 +3,7 @@ import 'package:sentaigazine/app_model/model_sentai.dart';
 var modelSentaiList = [
   Sentai(
       namaSentai: "Himitsu Sentai Goranger",
+      companyProduksi: "TOEI Company",
       tahunProduksi: "1975-1977",
       deskripsiSentai:
           "Himitsu Sentai Goranger merupakan generasi pertama dalam Super Sentai. Sentai ini memiliki jumlah episode sebanyak 84 episode. Sentai ini bercerita tentang",
@@ -30,6 +31,7 @@ var modelSentaiList = [
   ),
   Sentai(
       namaSentai: "JAKQ Dengeketai",
+      companyProduksi: "TOEI Company",
       tahunProduksi: "1977",
       deskripsiSentai:
           "JAKQ Dengeketai merupakan generasi kedua dari Super Sentai setelah selesainya serial Goranger",

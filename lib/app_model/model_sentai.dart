@@ -1,5 +1,6 @@
 class Sentai{
   String namaSentai;
+  String companyProduksi;
   String tahunProduksi;
   String deskripsiSentai;
   String gambarUtama;
@@ -11,6 +12,7 @@ class Sentai{
 
   Sentai({
     this.namaSentai,
+    this.companyProduksi,
     this.tahunProduksi,
     this.deskripsiSentai,
     this.gambarUtama,

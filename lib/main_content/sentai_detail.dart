@@ -47,22 +47,65 @@ class sentaiDetailScreen extends StatelessWidget{
               )
             ),
             Container(
-              margin: EdgeInsets.only(top: 20.0),
-              child: Row(
+              margin: EdgeInsets.only(top: 16.0, left: 10.0),
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Icon(
-                    Icons.timelapse,
-                    size: 30,
+                  Text(
+                    "Production",
+                    style: TextStyle(color: Colors.lightBlueAccent, fontSize: 22),
+                  ),
+                  Divider(
+                    color: Colors.lightBlueAccent,
+                    endIndent: 150,
                   ),
                   Container(
-                    margin: EdgeInsets.only(left: 15.0),
-                    child: Text(
-                      sentai.tahunProduksi,
-                      style: TextStyle(color: Colors.black, fontSize: 20),
-                      textAlign: TextAlign.center,
+                    margin: EdgeInsets.only(top: 20.0),
+                    child: Column(
+                      children: <Widget>[
+                        Container(
+                          margin: EdgeInsets.only(top: 15.0),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Icon(
+                                Icons.camera_roll,
+                                size: 30,
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(left: 15.0),
+                                child: Text(
+                                  sentai.companyProduksi,
+                                  style: TextStyle(color: Colors.black, fontSize: 20),
+                                  textAlign: TextAlign.center,
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                        Container(
+                          margin: EdgeInsets.only(top: 15.0),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Icon(
+                                Icons.timelapse,
+                                size: 30,
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(left: 15.0,),
+                                child: Text(
+                                  sentai.tahunProduksi,
+                                  style: TextStyle(color: Colors.black, fontSize: 20),
+                                  textAlign: TextAlign.center,
+                                ),
+                              )
+                            ],
+                          ),
+                        )
+                      ],
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
