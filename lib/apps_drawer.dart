@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sentaigazine/crossover_container.dart';
 
-import 'content_container.dart';
+import 'sentai_container.dart';
 
 class appsDrawer extends StatelessWidget{
   @override

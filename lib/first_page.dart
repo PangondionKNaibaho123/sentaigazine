@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:sentaigazine/content_container.dart';
+import 'package:sentaigazine/sentai_container.dart';
 
 void main() {
   runApp(MyApp());
