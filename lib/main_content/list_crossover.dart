@@ -16,7 +16,7 @@ class ListCrossoverScreen extends StatelessWidget{
         return Container(
           child: FlatButton(
             onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => CrossoverDetailScreen(sentaiCrossover: crossoverList)));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => CrossoverDetailScreen(sentaiCrossover: crossoverList, sentaiName: crossoverList.namaMovie,)));
             },
             child: Card(
               child: Wrap(
