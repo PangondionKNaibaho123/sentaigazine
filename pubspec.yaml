@@ -59,6 +59,8 @@ flutter:
     - image_source/all_red_sentai.jpeg
     - image_source/goranger.jpeg
     - image_source/jakq.jpeg
+    - image_source/battle_fever_j.jpeg
+    - image_source/denjiman.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

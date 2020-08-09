@@ -50,9 +50,59 @@ var modelSentaiList = [
         "Karen Mizuki",
         "Sokichi Banba"
       ],
-      urlVideo: "",
+      urlVideo: "https://krdl.moe/show/jakq-dengekitai",
       urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=jakq%20",
       urlMerchandise2:
           "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=jakq&search_source=omnisearch_keyword&source=navbar"
+  ),
+  Sentai(
+    namaSentai: "Battle Fever J",
+    companyProduksi: "TOEI Company, Marvel Comics",
+    tahunProduksi: "1979 - 1980",
+    deskripsiSentai: "Battle Fever J, merupakan generasi ketiga dari Super Sentai setelah suksesnya mengusung generasi kedua nya. Cerita Sentai ini bermula ketika",
+    gambarUtama: "image_source/battle_fever_j.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1979_battle_fever_j/images/battle-rg-den.jpg",
+      "http://supersentai.com/database/1979_battle_fever_j/images/battle-rg-shida.jpg",
+      "http://supersentai.com/database/1979_battle_fever_j/images/battle-rg-shiraishi.jpg",
+      "http://supersentai.com/database/1979_battle_fever_j/images/battle-rg-akebono.jpg",
+      "https://i.pinimg.com/originals/46/5b/bf/465bbfd2ac60f052c2db5f5f6042b610.jpg",
+      "http://supersentai.com/database/1979_battle_fever_j/images/battle-rg-maria.jpg"
+    ],
+    listNamaTokoh: [
+      "Masao Den",
+      "Kyousuke Shida",
+      "Kensaku Shiraishi",
+      "Shiro Akebono",
+      "Diane Martin",
+      "Maria Nagisa"
+    ],
+    urlVideo: "https://krdl.moe/show/battle-fever-j",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=battle%20fever%20j",
+    urlMerchandise2: "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=battle%20fever%20j&search_source=omnisearch_keyword&source=navbar"
+  ),
+  Sentai(
+    namaSentai: "Denshi Sentai Denjiman",
+    companyProduksi: "TOEI Company, Marvel Comics",
+    tahunProduksi: "1980 - 1981",
+    deskripsiSentai: "Denshi Sentai Denjiman merupakan serial Super Sentai ke empat yang bercerita mulanya ketika",
+    gambarUtama: "image_source/denjiman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1980_denjiman/images/denji-rg-akaki.jpg",
+      "http://supersentai.com/database/1980_denjiman/images/denji-rg-oume.jpg",
+      "http://supersentai.com/database/1980_denjiman/images/denji-rg-kiyama.jpg",
+      "http://supersentai.com/database/1980_denjiman/images/denji-rg-midorikawa.jpg",
+      "http://supersentai.com/database/1980_denjiman/images/denji-rg-momoi.jpg"
+    ],
+    listNamaTokoh: [
+      "Ippei Akagi",
+      "Daigoro Oume",
+      "Jun Kiyama",
+      "Tatsuya Midorikawa",
+      "Akira Momoi"
+    ],
+    urlVideo: "https://krdl.moe/show/denshi-sentai-denziman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=denjiman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=denjiman"
   )
 ];
