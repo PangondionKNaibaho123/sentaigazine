@@ -61,6 +61,10 @@ flutter:
     - image_source/jakq.jpeg
     - image_source/battle_fever_j.jpeg
     - image_source/denjiman.jpeg
+    - image_source/sun_vulcan.jpeg
+    - image_source/gogglev.jpeg
+    - image_source/dynaman.jpeg
+    - image_source/bioman.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

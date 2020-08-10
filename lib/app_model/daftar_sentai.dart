@@ -104,5 +104,101 @@ var modelSentaiList = [
     urlVideo: "https://krdl.moe/show/denshi-sentai-denziman",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=denjiman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=denjiman"
+  ),
+  Sentai(
+    namaSentai: "Taiyo Sentai Sun Vulcan",
+    companyProduksi: "TOEI Company, Marvel Comics",
+    tahunProduksi: "1981 - 1982",
+    deskripsiSentai: "Taiyo Sentai Sun Vulcan merupakan Sentai ke 5 sekaligus Sentai pertama yang berformat 3 orang saja dan semuanya adalah pria. Sentai ini bercerita tentang",
+    gambarUtama: "image_source/sun_vulcan.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1981_sun_vulcan/images/sun-rg-ryusuke.jpg",
+      "http://supersentai.com/database/1981_sun_vulcan/images/sun-rg-takayuki.jpg",
+      "http://supersentai.com/database/1981_sun_vulcan/images/sun-rg-kinya.jpg",
+      "http://supersentai.com/database/1981_sun_vulcan/images/sun-rg-asao.jpg"
+    ],
+    listNamaTokoh: [
+      "Ryusuke Ohwashi",
+      "Takayuki Hiba",
+      "Kinya Samejima",
+      "Asao Hyou"
+    ],
+    urlVideo: "https://krdl.moe/show/taiyo-sentai-sun-vulcan",
+    urlMerchandise1: "https://www.tokopedia.com/search?q=sun+vulcan&source=universe&st=product",
+    urlMerchandise2: "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=sun%20vulcan&search_source=omnisearch_keyword&source=navbar"
+  ),
+  Sentai(
+    namaSentai: "Dai Sentai Goggle-V",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1982 - 1983",
+    deskripsiSentai: "Dai Sentai Goggle-V merupakan Sentai ke 6 yang pertama kali tampil dan pernah live di Indonesia. Cerita Sentai ini bermula ketika",
+    gambarUtama: "image_source/gogglev.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1982_goggle_five/images/goggle-rg-akama.jpg",
+      "http://supersentai.com/database/1982_goggle_five/images/goggle-rg-aoyama.jpg",
+      "http://supersentai.com/database/1982_goggle_five/images/goggle-rg-kijima.jpg",
+      "http://supersentai.com/database/1982_goggle_five/images/goggle-rg-kuroda.jpg",
+      "http://supersentai.com/database/1982_goggle_five/images/goggle-rg-momozono.jpg"
+    ],
+    listNamaTokoh: [
+      "Kenichi Akama",
+      "Saburo Aoyama",
+      "Futoshi Kijima",
+      "Kanpei Kuroda",
+      "Miki Momozono"
+    ],
+    urlVideo: "https://krdl.moe/show/dai-sentai-goggle-v",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=dai%20sentai%20goggle%20v",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=dai%20sentai%20goggle%20v"
+  ),
+  Sentai(
+    namaSentai: "Kagaku Sentai Dynaman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1983 - 1984",
+    deskripsiSentai: "Kagaku Sentai Dynaman bercerita ketika",
+    gambarUtama: "image_source/dynaman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1983_dynaman/images/dyna-rg-dan.jpg",
+      "http://supersentai.com/database/1983_dynaman/images/dyna-rg-hoshikawa.jpg",
+      "http://supersentai.com/database/1983_dynaman/images/dyna-rg-nangou.jpg",
+      "http://supersentai.com/database/1983_dynaman/images/dyna-rg-shima.jpg",
+      "http://supersentai.com/database/1983_dynaman/images/dyna-rg-tachibana.jpg"
+    ],
+    listNamaTokoh: [
+      "Hokuto Dan",
+      "Ryu Hoshikawa",
+      "Kosaku Nango",
+      "Yosuke Shima",
+      "Rei Tachibana"
+    ],
+    urlVideo: "https://www.tokubatch.com/kagaku-sentai-dynaman-episode-1-51-end-raw-batch/#!",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=dynaman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=dynaman"
+  ),
+  Sentai(
+    namaSentai: "Choudenshi Bioman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1984 - 1985",
+    deskripsiSentai: "Bioman merupakan Sentai ke 8 yang unikknya tidak mengusung kata Sentai pada nama tim mereka. Sentai ini bercerita ketika",
+    gambarUtama: "image_source/bioman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1984_bioman/images/bio-rg-shirou.jpg",
+      "http://supersentai.com/database/1984_bioman/images/bio-rg-shingo.jpg",
+      "http://supersentai.com/database/1984_bioman/images/bio-rg-ryuuta.jpg",
+      "http://supersentai.com/database/1984_bioman/images/bio-rg-mika.jpg",
+      "http://supersentai.com/database/1984_bioman/images/bio-rg-jun.jpg",
+      "http://supersentai.com/database/1984_bioman/images/bio-rg-hikaru.jpg"
+    ],
+    listNamaTokoh: [
+      "Shiro Go",
+      "Shingo Takasugi",
+      "Ryuta Nanbara",
+      "Mika Koizumi",
+      "Jun Yabuki",
+      "Hikaru Katsuragi"
+    ],
+    urlVideo: "https://krdl.moe/show/choudenshi-bioman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=choudenshi%20bioman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choudenshi%20bioman"
   )
 ];

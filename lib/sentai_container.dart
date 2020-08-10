@@ -71,6 +71,7 @@ class dataSentaiSearch extends SearchDelegate<Sentai>{
   @override
   Widget buildSuggestions(BuildContext context) {
     final myListSentai = query.isEmpty? modelSentaiList : modelSentaiList.where((s) => s.namaSentai.startsWith(query)).toList();
+
     return myListSentai.isEmpty? Container(margin: EdgeInsets.only(left: 55.0, right: 55.0, top: 20), child: Text("Maaf, hasil tidak ditemukan 😔", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),) :
     ListView.builder(
         itemCount: myListSentai.length,
