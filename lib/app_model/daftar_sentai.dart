@@ -1,6 +1,6 @@
 import 'package:sentaigazine/app_model/model_sentai.dart';
 
-var modelSentaiList = [
+List<Sentai> modelSentaiList = [
   Sentai(
       namaSentai: "Himitsu Sentai Goranger",
       companyProduksi: "TOEI Company",
@@ -179,7 +179,7 @@ var modelSentaiList = [
     namaSentai: "Choudenshi Bioman",
     companyProduksi: "TOEI Company",
     tahunProduksi: "1984 - 1985",
-    deskripsiSentai: "Bioman merupakan Sentai ke 8 yang unikknya tidak mengusung kata Sentai pada nama tim mereka. Sentai ini bercerita ketika",
+    deskripsiSentai: "Bioman merupakan Sentai ke 8 yang pertama tidak mengusung kata 'Sentai' pada nama tim mereka. Sentai ini bercerita ketika",
     gambarUtama: "image_source/bioman.jpeg",
     urlGambarTokoh: [
       "http://supersentai.com/database/1984_bioman/images/bio-rg-shirou.jpg",
@@ -200,5 +200,101 @@ var modelSentaiList = [
     urlVideo: "https://krdl.moe/show/choudenshi-bioman",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=choudenshi%20bioman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choudenshi%20bioman"
+  ),
+  Sentai(
+    namaSentai: "Dengeki Sentai Changeman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1985 - 1986",
+    deskripsiSentai: "Dengeki Sentai Changeman bercerita tentang",
+    gambarUtama: "image_source/changeman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1985_changeman/images/change-rg-tsurugi.jpg",
+      "http://supersentai.com/database/1985_changeman/images/change-rg-hayate.jpg",
+      "http://supersentai.com/database/1985_changeman/images/change-rg-oozora.jpg",
+      "http://supersentai.com/database/1985_changeman/images/change-rg-nagisa.jpg",
+      "http://supersentai.com/database/1985_changeman/images/change-rg-tsubasa.jpg"
+    ],
+    listNamaTokoh: [
+      "Hiryu Tsurugi",
+      "Sho Hayate",
+      "Yuma Ozora",
+      "Sayaka Nagisa",
+      "Mai Tsubasa"
+    ],
+    urlVideo: "https://krdl.moe/show/dengeki-sentai-changeman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=dengeki%20sentai%20changeman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=dengeki%20sentai%20changeman"
   )
+  /*Sentai(
+    namaSentai: "Choushinsei Flashman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1986 - 1987",
+    deskripsiSentai: "Flashman merupakan Sentai kedua yang kembali tidak mengusung kata 'Sentai' dalam nama tim nya, setelah selesai nya bioman. Sentai ini bercerita tentang",
+    gambarUtama: "image_source/flashman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1986_flashman/images/flash-rg-jin.jpg",
+      "http://supersentai.com/database/1986_flashman/images/flash-rg-bun.jpg",
+      "http://supersentai.com/database/1986_flashman/images/flash-rg-dai.jpg",
+      "http://supersentai.com/database/1986_flashman/images/flash-rg-sara.jpg",
+      "http://supersentai.com/database/1986_flashman/images/flash-rg-lou.jpg"
+    ],
+    listNamaTokoh: [
+      "Jin",
+      "Bun",
+      "Dai",
+      "Sara",
+      "Lou"
+    ],
+    urlVideo: "https://krdl.moe/show/choushinsei-flashman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=choushinsei%20flashman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choushinsei%20flashman"
+  ),*/
+  /*Sentai(
+    namaSentai: "Hikari Sentai Maskman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1987 - 1988",
+    deskripsiSentai: "Maskman merupakan Sentai ke 10 yang bercerita tentang",
+    gambarUtama: "image_source/maskman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1987_maskman/images/mask-rg-takeru.jpg",
+      "http://supersentai.com/database/1987_maskman/images/mask-rg-akira.jpg",
+      "http://supersentai.com/database/1987_maskman/images/mask-rg-haruka.jpg",
+      "http://supersentai.com/database/1987_maskman/images/mask-rg-kenta.jpg",
+      "http://supersentai.com/database/1987_maskman/images/mask-rg-momoko.jpg"
+    ],
+    listNamaTokoh: [
+      "Takeru",
+      "Akira",
+      "Haruka",
+      "Kenta",
+      "Momoko"
+    ],
+    urlVideo: "https://krdl.moe/show/hikari-sentai-maskman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=hikari%20sentai%20maskman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=hikari%20sentai%20maskman"
+  ),*/
+  /*Sentai(
+    namaSentai: "Choujuu Sentai Liveman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1988 - 1989",
+    deskripsiSentai: "Sentai kedua yang memiliki format 3 anggota sebagai anggota utama ditambah dengan 2 anggota additional ini bercerita tentang",
+    gambarUtama: "image_source/liveman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1988_liveman/images/live-rg-yuusuke.jpg",
+      "http://supersentai.com/database/1988_liveman/images/live-rg-jou.jpg",
+      "http://supersentai.com/database/1988_liveman/images/live-rg-megumi.jpg",
+      "http://supersentai.com/database/1988_liveman/images/live-rg-tetsuya.jpg",
+      "http://supersentai.com/database/1988_liveman/images/live-rg-junichi.jpg"
+    ],
+    listNamaTokoh: [
+      "Yusuke Amamiya",
+      "Jou Ohara",
+      "Megumi Misaki",
+      "Tetsuya Yano",
+      "Jun-ichi Aikawa"
+    ],
+    urlVideo: "https://krdl.moe/show/choujuu-sentai-liveman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=liveman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choujuu%20sentai%20liveman"
+  )*/
 ];
