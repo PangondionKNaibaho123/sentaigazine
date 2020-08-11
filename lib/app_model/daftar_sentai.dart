@@ -224,8 +224,8 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://krdl.moe/show/dengeki-sentai-changeman",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=dengeki%20sentai%20changeman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=dengeki%20sentai%20changeman"
-  )
-  /*Sentai(
+  ),
+  Sentai(
     namaSentai: "Choushinsei Flashman",
     companyProduksi: "TOEI Company",
     tahunProduksi: "1986 - 1987",
@@ -248,8 +248,8 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://krdl.moe/show/choushinsei-flashman",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=choushinsei%20flashman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choushinsei%20flashman"
-  ),*/
-  /*Sentai(
+  ),
+  Sentai(
     namaSentai: "Hikari Sentai Maskman",
     companyProduksi: "TOEI Company",
     tahunProduksi: "1987 - 1988",
@@ -272,8 +272,8 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://krdl.moe/show/hikari-sentai-maskman",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=hikari%20sentai%20maskman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=hikari%20sentai%20maskman"
-  ),*/
-  /*Sentai(
+  ),
+  Sentai(
     namaSentai: "Choujuu Sentai Liveman",
     companyProduksi: "TOEI Company",
     tahunProduksi: "1988 - 1989",
@@ -296,5 +296,29 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://krdl.moe/show/choujuu-sentai-liveman",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=liveman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choujuu%20sentai%20liveman"
-  )*/
+  ),
+  Sentai(
+    namaSentai: "Kousoku Sentai Turboranger",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1989 - 1990",
+    deskripsiSentai: "Turboranger berkisah bermula pada Dua puluh ribu tahun yang lalu, ras Peri diketahui membantu manusia dalam pertempuran melawan Suku Boma. Setelah apa yang tampak seperti pertarungan yang tidak pernah berakhir, Suku Boma disegel oleh kekuatan gabungan peri dan manusia. Saat ini, karena polusi dan kehancuran alam manusia, kekuatan sihir Peri telah melemah, memungkinkan segelnya dibuka dan Suku Boma telah melarikan diri. Dengan bantuan Dokter Dazai, Chiron, peri terakhir, memanggil lima siswa sekolah menengah atas yang masing-masing memiliki 'api roh' dari peri yang jatuh. Mengenakan powered suit baru, hasil kolaborasi antara sihir peri Chiron dan sains Dokter Dazai, kelima pemuda itu menjadi Turboranger. Atas tanggung jawab baru mereka, mereka harus menyeimbangkan hari-hari pertempuran mereka dengan kehidupan sekolah biasa mereka, untuk mengalahkan Suku Boma.",
+    gambarUtama: "image_source/turboranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1989_turboranger/images/turbo-rg-riki.jpg",
+      "http://supersentai.com/database/1989_turboranger/images/turbo-rg-daichi.jpg",
+      "http://supersentai.com/database/1989_turboranger/images/turbo-rg-youhei.jpg",
+      "http://supersentai.com/database/1989_turboranger/images/turbo-rg-shunsuke.jpg",
+      "http://supersentai.com/database/1989_turboranger/images/turbo-rg-haruna.jpg"
+    ],
+    listNamaTokoh: [
+      "Riki Honoo",
+      "Daichi Yamagata",
+      "Youhei Hama",
+      "Shunsuke Hino",
+      "Haruna Morikawa"
+    ],
+    urlVideo: "https://krdl.moe/show/kousoku-sentai-turboranger",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=turboranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=kousoku%20sentai%20turboranger"
+  )
 ];
