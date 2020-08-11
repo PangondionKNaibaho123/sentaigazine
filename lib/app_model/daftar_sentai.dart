@@ -320,5 +320,53 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://krdl.moe/show/kousoku-sentai-turboranger",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=turboranger",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=kousoku%20sentai%20turboranger"
+  ),
+  Sentai(
+    namaSentai: "Chikyuu Sentai Fiveman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1990 - 1991",
+    deskripsiSentai: "Chikyuu Sentai Fiveman bermula ketika",
+    gambarUtama: "image_source/fiveman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1990_fiveman/images/five-rg-gaku.jpg",
+      "http://supersentai.com/database/1990_fiveman/images/five-rg-fumiya.jpg",
+      "http://supersentai.com/database/1990_fiveman/images/five-rg-ken.jpg",
+      "http://supersentai.com/database/1990_fiveman/images/five-rg-remi.jpg",
+      "http://supersentai.com/database/1990_fiveman/images/five-rg-kazumi.jpg"
+    ],
+    listNamaTokoh: [
+      "Gaku Hoshikawa",
+      "Fumiya Hoshikawa",
+      "Ken Hoshikawa",
+      "Remi Hoshikawa",
+      "Kazumi Hoshikawa"
+    ],
+    urlVideo: "https://krdl.moe/show/chikyu-sentai-fiveman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=chikyuu%20sentai%20fiveman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=chikyuu%20sentai%20fiveman"
+  ),
+  Sentai(
+    namaSentai: "Choujin Sentai Jetman",
+    companyProduksi: "TOEI Company",
+    tahunProduksi: "1991 - 1992",
+    deskripsiSentai: "Choujin Sentai Jetman, salah satu Sentai yang memiliki rating S rank ini bercerita tentang 5 orang kesatria yang dimana 4 dari mereka terpilih dikarenakan sebuah kecelakaan yang dilakukan oleh perusahaan yang terkenal, Birdnc. Perusahaan tersebut menemukan cara untuk merekayasa biologisnya dan mengikatnya ke dalam manusia. 1 dari 5 orang tersebut merupakan seorang sukarelawan yang seharusnya ia bersama tunangan nya. Namun satu kejadian naas terjadi ketika kelompok pasukan jahat bernama Vyram mengacaukan insiden tersebut. Dikarenakan gangguan tersebut lah 4 orang lainnya secara tidak sengaja memeroleh kekuatan tersebut. Pada akhirnya mereka bersatu bersama dengan mengandalkan kekuatan yang diperoleh mereka untuk mengalahkan organisasi jahat Vyram tersebut.",
+    gambarUtama: "image_source/jetman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1991_jetman/images/jet-rg-ryuu.jpg",
+      "http://supersentai.com/database/1991_jetman/images/jet-rg-gai.jpg",
+      "http://supersentai.com/database/1991_jetman/images/jet-rg-raita.jpg",
+      "http://supersentai.com/database/1991_jetman/images/jet-rg-ako.jpg",
+      "http://supersentai.com/database/1991_jetman/images/jet-rg-kaori.jpg"
+    ],
+    listNamaTokoh: [
+      "Ryuu Tendou",
+      "Gai Yuuki",
+      "Raita Ooishi",
+      "Ako Hayasaka",
+      "Kaori Rokumeikan"
+    ],
+    urlVideo: "https://ryuzakilogia.net/chojin-sentai-jetman/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=choujin%20sentai%20jetman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choujin%20sentai%20jetman"
   )
 ];

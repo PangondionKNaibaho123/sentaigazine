@@ -71,6 +71,8 @@ flutter:
     - image_source/maskman.jpeg
     - image_source/liveman.jpeg
     - image_source/turboranger.jpeg
+    - image_source/fiveman.jpeg
+    - image_source/jetman.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
