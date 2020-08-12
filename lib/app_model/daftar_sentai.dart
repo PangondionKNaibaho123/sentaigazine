@@ -627,5 +627,31 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://ryuzakilogia.net/hyakujuu-sentai-gaoranger/",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=gaoranger",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=gaoranger"
+  ),
+  Sentai(
+    namaSentai: "Ninpuu Sentai Hurricaneger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2002 - 2003",
+    deskripsiSentai: "Sentai ke dua yang bertemakan ninja ini bercerita tentang sebuah perguruan Ninja Hayate, dimana ada 3 orang murid yang tidak begitu mahir. Tapi karena Kanchou mereka dengan potensi mereka, jadi Kanchou mereka selalu menyempatkan waktu pada pagi hari untuk melatih mereka. Saat upacara kelulusan, Jakanja menyerang Perguruan Hayate dan menyegel hampir semua siswa. Kanchou mereka, Mugensai, mengubah dirinya menjadi Hamster. Lalu ketiga orang itu berubah menjadi Hurricanger untuk melawan Jakanja. Kemudian, ada dua orang ninja bersaudara yang berasal dari Perguruan Ikazuchi, yaitu Perguruan berbuyutan mereka. Dengan bantuan dari Shurikenger yang misterius, kedua kelompok ninja tersebut akhirnya memutuskan untuk bersatu menghentikan Jakanja.",
+    gambarUtama: "image_source/hurricaneger.jpeg ",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-yousuke.jpg",
+      "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-kouta.jpg",
+      "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-nanami.jpg",
+      "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-ikkou.jpg",
+      "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-isshuu.jpg",
+      "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-shurikenger.jpg"
+    ],
+    listNamaTokoh: [
+      "Yousuke Shina",
+      "Kouta Bitou",
+      "Nanami Nono",
+      "Ikkou Kasumi",
+      "Isshuu Kasumi",
+      "Shurikenger"
+    ],
+    urlVideo: "https://ryuzakilogia.net/ninpuu-sentai-hurricaneger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=hurricaneger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=hurricaneger"
   )
 ];

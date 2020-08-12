@@ -83,6 +83,7 @@ flutter:
     - image_source/gogov.jpeg
     - image_source/timeranger.jpeg
     - image_source/gaoranger.jpeg
+    - image_source/hurricaneger.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
