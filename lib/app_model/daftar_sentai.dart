@@ -368,5 +368,264 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://ryuzakilogia.net/chojin-sentai-jetman/",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=choujin%20sentai%20jetman",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=choujin%20sentai%20jetman"
+  ),
+  Sentai(
+    namaSentai: "Kyoryuu Sentai Zyuranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1992 - 1993",
+    deskripsiSentai: "Zyuranger merupakan Sentai pertama dengan bertema Dinosaurus dan binatang zaman purba. Sentai ini bercerita tentang seorang penyihir hebat bernama Bandora. Ia memiliki seorang putra. Namun naas nya, putra Bandora dibunuh oleh dinosaurus dan dia bersumpah akan membalas dendam terhadap Bumi. Lima suku dari peradaban manusia purba memilih salah satu pejuang terbaik mereka untuk membentuk Tim Kesatria Dinosaurus (Kyouruu Sentai Zyuranger) dan melindungi planet ini. Bentuk lengkap dari Binatang Penjaga mereka (Shojuus), Dewa Besar Makhluk Agung (Kyuukyoku Daijuujin) memenjarakan Bandora dan gengnya di planet Nemesis. Pada tahun 1992, Barza, yang menyamar sebagai manajer apartemen, terpaksa menghidupkan kembali Zyuranger untuk melindungi Bumi lagi ketika astronot secara tidak sengaja melepaskan Bandora.",
+    gambarUtama: "image_source/zyuranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1992_zyuranger/images/zyu-rg-geki.jpg",
+      "http://supersentai.com/database/1992_zyuranger/images/zyu-rg-goushi.jpg",
+      "http://supersentai.com/database/1992_zyuranger/images/zyu-rg-dan.jpg",
+      "http://supersentai.com/database/1992_zyuranger/images/zyu-rg-boy.jpg",
+      "http://supersentai.com/database/1992_zyuranger/images/zyu-rg-mei.jpg",
+      "http://supersentai.com/database/1992_zyuranger/images/zyu-rg-burai.jpg"
+    ],
+    listNamaTokoh: [
+      "Geki",
+      "Goushi",
+      "Dan",
+      "Boi",
+      "Burai"
+    ],
+    urlVideo: "https://ryuzakilogia.net/kyoryu-sentai-zyuranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=zyuranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=zyuranger&search_source=omnisearch_keyword&source=navbar"
+  ),
+  Sentai(
+    namaSentai: "Gosei Sentai Dairanger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1993 - 1994",
+    deskripsiSentai: "Dairanger mengisahkan pada kejadian lebih dari 8.000 tahun yang lalu, peradaban Tao berkembang di Tiongkok Selatan. Kekaisaran Tao terdiri dari tiga suku: Dai, Shura (nenek moyang umat manusia saat ini) dan Gorma yang hidup harmonis. Namun, suatu hari Suku Gorma mencoba mengambil alih Kekaisaran. Maka dimulailah perang antara Gorma dan Suku Dai. Pertempuran berlanjut selama 5.000 tahun, dipimpin oleh Gorma Triumvirate. The Mythical Chi Beasts tampaknya menentang Gorma, yang kekuatan magisnya telah meningkat ke titik di mana mereka bisa mengubah diri mereka menjadi monster. Kekuatan chi lima prajurit Dai telah meningkat ke titik di mana mereka bisa mengendalikan Binatang Chi Mythical. Perang berakhir dengan lenyapnya Suku Dai dan Gorma. Pada tahun 1993, Suku Gorma, salah satu dari dua cabang Tao yang hilang, bangkit kembali untuk mengambil alih dunia. Untuk melawan mereka, Master Kaku membentuk sebuah tim yang terdiri dari lima pemuda dengan chi tingkat tinggi. Mereka menjadi Dairanger saat ini.",
+    gambarUtama: "image_source/dairanger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1993_dairanger/images/dai-rg-ryou.jpg",
+      "http://supersentai.com/database/1993_dairanger/images/dai-rg-daigo.jpg",
+      "http://supersentai.com/database/1993_dairanger/images/dai-rg-shouji.jpg",
+      "http://supersentai.com/database/1993_dairanger/images/dai-rg-kazu.jpg",
+      "http://supersentai.com/database/1993_dairanger/images/dai-rg-lin.jpg",
+      "http://supersentai.com/database/1993_dairanger/images/dai-rg-kou.jpg"
+    ],
+    listNamaTokoh: [
+      "Ryou",
+      "Daigo",
+      "Shouji",
+      "Kazu",
+      "Lin",
+      "Kou"
+    ],
+    urlVideo: "https://ryuzakilogia.net/gosei-sentai-dairanger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=dairanger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=dairanger"
+  ),
+  Sentai(
+    namaSentai: "Ninja Sentai Kakuranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1994 - 1995",
+    deskripsiSentai: "Sentai yang diadaptasikan ke Indonesia dengan judul lokal 'Ninja Ranger' ini bercerita pada empat ratus tahun yang lalu, Ninja dan Youkai telah peperangan besar. Sarutobi Sasuke yang legendaris dan empat ninja lainnya menyegel Komandan Youkai Nurarihyon dan semua energi Youkai nya jauh di sebuah gua yang dilindungi oleh “Pintu Segel”. Di masa sekarang, salah satu dari beberapa sisa Youkai, Kappa, membuat siasat licik pada keturunan Sarutobi Sasuke dan Kirigakure Saizo, Saizou dan Sasuke, untuk melepaskan Youkai dengan membuka “Pintu Segel”. Sekarang mereka berdua, bergabung dengan tiga keturunan Ninja besar lainnya, menjadi Kakuranger untuk melawan kebangkitan Youkai dengan bantuan dari Sanshinshou.",
+    gambarUtama: "image_source/kakuranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1994_kakuranger/images/kaku-rg-sasuke.jpg",
+      "http://supersentai.com/database/1994_kakuranger/images/kaku-rg-jiraiya.jpg",
+      "http://supersentai.com/database/1994_kakuranger/images/kaku-rg-saizou.jpg",
+      "http://supersentai.com/database/1994_kakuranger/images/kaku-rg-seikai.jpg",
+      "http://supersentai.com/database/1994_kakuranger/images/kaku-rg-tsuruhime.jpg",
+      "http://supersentai.com/database/1994_kakuranger/images/kaku-rg-ninjaman.jpg"
+    ],
+    listNamaTokoh: [
+      "Sasuke",
+      "Jiraiya",
+      "Saizou",
+      "Seikai",
+      "Tsuruhime",
+      "Ninjaman"
+    ],
+    urlVideo: "https://ryuzakilogia.net/ninja-sentai-kakuranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=kakuranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=kakuranger"
+  ),
+  Sentai(
+    namaSentai: "Chouriki Sentai Ohranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1995 - 1996",
+    deskripsiSentai: "Cerita Sentai yang diadaptasi ke Indonesia dengan nama 'O-Ranger' ini bermula pada 600 juta tahun yang lalu, dimana Pangaea menciptakan robot bernama Bacchus Wrath. KingRanger mengalahkan Bacchus Wrath dan membuangnya dari bumi. Pada tahun 1999, Bacchus kembali ke bumi sebagai penguasa Kerajaan Mesin Baranoia dengan tujuan memusnahkan semua kehidupan manusia dan membawa peraturan mesin. Kepala Pembimbing Miura menghidupkan kembali energi super yang telah lahir dari peradaban yang hilang dari Pangaea dengan tujuan menciptakan senjata untuk melawan Baranoia. Penyusunan kembali dari plat batu yang ditemukan tiga tahun sebelumnya, rahasia “Super Power” akhirnya terungkap. Miura membangun piramida untuk menghasilkan tenaga Tetrahedron untuk memungkinkan lima petugas UAOH untuk berubah menjadi Ohranger.",
+    gambarUtama: "image_source/ohranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1995_ohranger/images/oh-rg-gorou.jpg",
+      "http://supersentai.com/database/1995_ohranger/images/oh-rg-shouhei.jpg",
+      "http://supersentai.com/database/1995_ohranger/images/oh-rg-yuuji.jpg",
+      "http://supersentai.com/database/1995_ohranger/images/oh-rg-juri.jpg",
+      "http://supersentai.com/database/1995_ohranger/images/oh-rg-momo.jpg",
+      "http://supersentai.com/database/1995_ohranger/images/oh-rg-riki.jpg"
+    ],
+    listNamaTokoh: [
+      "Gorou Hoshino",
+      "Shouhei Yokaichi",
+      "Yuuji Mita",
+      "Juri Nijou",
+      "Momo Maruo",
+      "Riki"
+    ],
+    urlVideo: "https://ryuzakilogia.net/chouriki-sentai-ohranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=ohranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=ohranger"
+  ),
+  Sentai(
+    namaSentai: "Gekisou Sentai Carranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1996 - 1997",
+    deskripsiSentai: "Lima pekerja dari Pegasus Auto Garage ditemukan oleh Dappu, alien dari planet Hazard. Dia memberi wewenang mereka berlima dengan “Kurumagic” kekuatan lima rasi mobil legendaris, yang memungkinkan mereka bisa berubah menjadi Carranger. Sebagai seorang Carrangers, mereka berlima harus bertarung dengan Pasukan Bowzock untuk mencegah mereka dari menghancurkan Bumi.",
+    gambarUtama: "image_source/carranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1996_carranger/images/car-rg-kyosuke.jpg",
+      "http://supersentai.com/database/1996_carranger/images/car-rg-minoru.jpg",
+      "http://supersentai.com/database/1996_carranger/images/car-rg-naoki.jpg",
+      "http://supersentai.com/database/1996_carranger/images/car-rg-natsumi.jpg",
+      "http://supersentai.com/database/1996_carranger/images/car-rg-yoko.jpg",
+      "https://vignette.wikia.nocookie.net/powerrangers/images/0/0f/Turbo_Blue_Senturion.jpg/revision/latest?cb=20160226223516"
+    ],
+    listNamaTokoh: [
+      "Kyosuke Jinnai",
+      "Minoru Uesugi",
+      "Naoki Domon",
+      "Natsumi Shinohara",
+      "Youko Yagami",
+      "Signalman"
+    ],
+    urlVideo: "https://ryuzakilogia.net/gekisou-sentai-carranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=carranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=carranger"
+  ),
+  Sentai(
+    namaSentai: "Denji Sentai Megaranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1997 - 1998",
+    deskripsiSentai: "Megaranger, merupakan salah satu sentai yang pernah ditayangkan di Indonesia di saat penayangan acara TV di Indonesia masih waras. Sentai ini bermula ketika Date Kenta, adalah seorang siswa SMA, dan juara utama dari video game arcade yang disebut “Megaranger”. milik klub Cybernetics, itulah yang ada dipikiran teman-teman dari sekolahnya. Koichiro Endo, Shun Namiki, Chisato Jogaseki, dan Miku Imamura juga anggota Cybernetics. Internasional Jaringan Excel-Sains dan Teknologi (INET), Gedung INET HQ, perusahaan ini diserang oleh Neijirejia, kekuatan jahat yang dipimpin oleh Dr. Hinelar pada misi untuk menaklukkan realitas saat ini. Dr. Kubota, kepala ilmuwan INET, mengungkapkan bahwa Megaranger lebih dari hanya video game sederhana namun sebenarnya simulator tempur untuk mengidentifikasi calon potensial untuk tim pertempuran super untuk memerangi Neijirejia. Sedangkan markas INET (HQ) dihancurkan oleh Neijirejia prajurit Yugande, Dr. Kubota memberikan Kenta dan teman-perangkat yang dikenal sebagai ‘Digitizers’. Dengan alat itu, Date, Endo, Namiki, Jogasaki dan Imamura berubah menjadi Megaranger untuk melawan Nejirejia.",
+    gambarUtama: "image_source/megaranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1997_megaranger/images/mega-rg-kenta.jpg",
+      "http://supersentai.com/database/1997_megaranger/images/mega-rg-kouichirou.jpg",
+      "http://supersentai.com/database/1997_megaranger/images/mega-rg-shun.jpg",
+      "http://supersentai.com/database/1997_megaranger/images/mega-rg-chisato.jpg",
+      "http://supersentai.com/database/1997_megaranger/images/mega-rg-miku.jpg",
+      "http://supersentai.com/database/1997_megaranger/images/mega-rg-yuusaku.jpg"
+    ],
+    listNamaTokoh: [
+      "Date Kenta",
+      "Kouichirou Endo",
+      "Shun Namiki",
+      "Chisato Jougasaki",
+      "Miku Imamura",
+      "Yuusau Hayakawa"
+    ],
+    urlVideo: "https://ryuzakilogia.net/denji-sentai-megaranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=megaranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=megaranger"
+  ),
+  Sentai(
+    namaSentai: "Seijuu Sentai Gingaman",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1998 - 1999",
+    deskripsiSentai: "Gingaman bercerita tentang tiga ribu tahun yang lalu, dimana Space Pirates Barban menginvasi Bumi. Binatang Bintang dan Gingamen pertama, prajurit Hutan Ginga, melawan mereka dengan kekuatan mistik yang dikenal sebagai Bumi dan akhirnya memenjarakan mereka. Orang-orang Ginga kemudian menyelubungi hutan mereka dalam batas-batas yang telah ditandai dan meneruskan tugas para pejuang Ginga dari generasi ke generasi. Saat ini, Hyuuga, Hayate, Gouki, Hikaru, dan Saya dipilih sebagai prajurit ke-133 Pedang Binatang Bintang. Ryouma sangat senang bahwa kakak laki-lakinya Hyuuga berhasil mendapatkan gelar tersebut. Ketika Penatua Ohghi mengadakan upacara suksesi Pedang Binatang Bintang, gempa bumi membuka segel di Barban. Ohghi memerintahkan prajurit ke-133 untuk menyembunyikan Ginga Braces di Gunung Roaring. Namun, Barban menyerang mereka untuk mencegah kelahiran Gingamen baru. Selama pertempuran, Hyuuga ditelan ke dalam celah di tanah yang diciptakan oleh pemimpin Barban, Kapten Zahab. Marah, Ryouma mengaktifkan kekuatan Bumi yang tersembunyi dan membangunkan Ginga Braces. Gingaman bertarung bersama dengan Star Beast melawan Barban, yang ingin menghidupkan kembali Demon Beast Daitanix",
+    gambarUtama: "image_source/gingaman.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-ryoma.jpg",
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-gouki.jpg",
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-hikaru.jpg",
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-hayate.jpg",
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-saya.jpg",
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-hyuuga.jpg",
+      "http://supersentai.com/database/1998_gingaman/images/ginga-rg-bullblack.jpg"
+    ],
+    listNamaTokoh: [
+      "Ryoma",
+      "Gouki",
+      "Hikaru",
+      "Hayate",
+      "Saya",
+      "Hyuuga",
+      "Bull black"
+    ],
+    urlVideo: "https://krdl.moe/show/seijuu-sentai-gingaman",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=gingaman",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=gingaman"
+  ),
+  Sentai(
+    namaSentai: "KyuuKyuu Sentai Go Go V",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "1999 - 2000",
+    deskripsiSentai: "Grandiene telah menunggu hari kebangkitannya, hari dimana semua planet berada sejajar dalam Grand Cross. Anaknya dikirim ke bumi untuk membuat dunia kegelapan bagi dirinya. 10 tahun sebelumnya, Professor Tatsumi dari Tatsumi Disaster Prevention Institute telah memprediksi semua ini, tapi tak ada yang percaya padanya. Ia meninggalkan keluarganya sehingga ia bisa secara diam-diam mengembangkan dan membuat Rescue System. Sekarang di 1999, Professor Tatsumi muncul lagi untuk menunjukkan arti menyelamatkan dunia pada anaknya.",
+    gambarUtama: "image_source/gogov.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/1999_gogov/images/gogov-rg-matoi.jpg",
+      "http://supersentai.com/database/1999_gogov/images/gogov-rg-nagare.jpg",
+      "http://supersentai.com/database/1999_gogov/images/gogov-rg-shou.jpg",
+      "http://supersentai.com/database/1999_gogov/images/gogov-rg-daimon.jpg",
+      "http://supersentai.com/database/1999_gogov/images/gogov-rg-matsuri.jpg"
+    ],
+    listNamaTokoh: [
+      "Matoi Tatsumi",
+      "Nagare Tatsumi",
+      "Shou Tatsumi",
+      "Daimon Tatsumi",
+      "Matsuri Tatsumi"
+    ],
+    urlVideo: "https://krdl.moe/show/kyukyu-sentai-gogofive",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=kyukyu%20sentai%20gogo%20v",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=kyukyu%20sentai%20gogov"
+  ),
+  Sentai(
+    namaSentai: "Mirai Sentai Timeranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2000 - 2001",
+    deskripsiSentai: "Sentai pertama yang bertemakan tentang perjalanan waktu ini bercerita ketika pada abad ke-30, perjalanan waktu telah dilarang. Untuk menjamin pencegahan paradoks waktu, maka dibentuklah Departemen Perlindungan Waktu alias TPD untuk mencegah kejahatan waktu lebih lanjut. Ketika empat taruna TPD yang terdaftar ditipu oleh keluarga mafia yang disebut Londarz dengan membiarkan mereka melakukan perjalanan ke tahun 2000 M untuk melakukan kejahatan, keempat taruna tersebut juga harus melakukan perjalanan ke tahun 2000 untuk menjatuhkan Londarz sebagai Timerangers. Keempat rekrutan hanya dapat memulai misi mereka jika ada lima penjaga di dalam tim. Maka mereka memaksa seorang seniman bela diri dari tahun 2000 bernama Tatsuya Asami menjadi ranger kelima. Saat ditempatkan di abad ke-21, Tatsuya menyewa sebuah bangunan untuk empat penjaga lainnya sebagai sarana perumahan dan menjalankan bisnis kecil bernama Tomorrow Research, Dengan lima penjaga berpatroli di kota, keluarga Londers tidak akan memiliki kesempatan untuk melawan mereka.",
+    gambarUtama: "image_source/timeranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2000_timeranger/images/time-rg-tatsuya.jpg",
+      "http://supersentai.com/database/2000_timeranger/images/time-rg-ayase.jpg",
+      "http://supersentai.com/database/2000_timeranger/images/time-rg-sion.jpg",
+      "http://supersentai.com/database/2000_timeranger/images/time-rg-domon.jpg",
+      "http://supersentai.com/database/2000_timeranger/images/time-rg-yuuri.jpg",
+      "http://supersentai.com/database/2000_timeranger/images/time-rg-naoto.jpg"
+    ],
+    listNamaTokoh: [
+      "Tatsuya Asami",
+      "Ayase",
+      "Sion",
+      "Domon",
+      "Yuuri",
+      "Naoto Takizawa"
+    ],
+    urlVideo: "https://krdl.moe/show/mirai-sentai-timeranger",
+    urlMerchandise1: "https://www.tokopedia.com/search?q=timeranger&source=universe&st=product",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=timeranger"
+  ),
+  Sentai(
+    namaSentai: "Hyakujuu Sentai Gaoranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2001 - 2002",
+    deskripsiSentai: "Sentai Anniversary ke 25 ini bercerita tentang seribu tahun yang lalu, dimana perang berlangsung antara manusia dan ras setan Org. Dengan bantuan Power Animal, prajurit kuno Gao mampu mengalahkan pemimpin Org itu, Hyakkimaru, dan menyegel Org.Saat ini, Org telah mulai bangkit kembali, dan lima prajurit telah dipilih oleh Power Animal. Mereka harus meninggalkan kehidupan mereka saat ini dan menjadi generasi baru Gaoranger untuk melindungi kehidupan Bumi.",
+    gambarUtama: "image_source/gaoranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2001_gaoranger/images/gao-rg-kakeru.jpg",
+      "http://supersentai.com/database/2001_gaoranger/images/gao-rg-gaku.jpg",
+      "http://supersentai.com/database/2001_gaoranger/images/gao-rg-soutarou.jpg",
+      "http://supersentai.com/database/2001_gaoranger/images/gao-rg-kai.jpg",
+      "http://supersentai.com/database/2001_gaoranger/images/gao-rg-sae.jpg",
+      "http://supersentai.com/database/2001_gaoranger/images/gao-rg-tsukumaro.jpg"
+    ],
+    listNamaTokoh: [
+      "Kakeru Shishi",
+      "Gaku Washio",
+      "Shotarou Ushigome",
+      "Kai Samezu",
+      "Sae Taiga",
+      "Tsukomaru Oogami"
+    ],
+    urlVideo: "https://ryuzakilogia.net/hyakujuu-sentai-gaoranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=gaoranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=gaoranger"
   )
 ];

@@ -73,6 +73,16 @@ flutter:
     - image_source/turboranger.jpeg
     - image_source/fiveman.jpeg
     - image_source/jetman.jpeg
+    - image_source/zyuranger.jpeg
+    - image_source/dairanger.jpeg
+    - image_source/kakuranger.jpeg
+    - image_source/ohranger.jpeg
+    - image_source/carranger.jpeg
+    - image_source/megaranger.jpeg
+    - image_source/gingaman.jpeg
+    - image_source/gogov.jpeg
+    - image_source/timeranger.jpeg
+    - image_source/gaoranger.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
