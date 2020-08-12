@@ -633,7 +633,7 @@ List<Sentai> modelSentaiList = [
     companyProduksi: "TOEI Company, TV Asahi",
     tahunProduksi: "2002 - 2003",
     deskripsiSentai: "Sentai ke dua yang bertemakan ninja ini bercerita tentang sebuah perguruan Ninja Hayate, dimana ada 3 orang murid yang tidak begitu mahir. Tapi karena Kanchou mereka dengan potensi mereka, jadi Kanchou mereka selalu menyempatkan waktu pada pagi hari untuk melatih mereka. Saat upacara kelulusan, Jakanja menyerang Perguruan Hayate dan menyegel hampir semua siswa. Kanchou mereka, Mugensai, mengubah dirinya menjadi Hamster. Lalu ketiga orang itu berubah menjadi Hurricanger untuk melawan Jakanja. Kemudian, ada dua orang ninja bersaudara yang berasal dari Perguruan Ikazuchi, yaitu Perguruan berbuyutan mereka. Dengan bantuan dari Shurikenger yang misterius, kedua kelompok ninja tersebut akhirnya memutuskan untuk bersatu menghentikan Jakanja.",
-    gambarUtama: "image_source/hurricaneger.jpeg ",
+    gambarUtama: "image_source/hurricaneger.jpeg",
     urlGambarTokoh: [
       "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-yousuke.jpg",
       "http://supersentai.com/database/2002_hurricanger/images/hurri-rg-kouta.jpg",
@@ -653,5 +653,117 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://ryuzakilogia.net/ninpuu-sentai-hurricaneger/",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=hurricaneger",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=hurricaneger"
+  ),
+  Sentai(
+    namaSentai: "Bakuryuu Sentai Abaranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2003 - 2004",
+    deskripsiSentai: "Sentai ini bercerita bahwa para ilmuwan percaya bahwa 65.000.000 tahun yang lalu, kecelakaan meteorit di Bumi membunuh dinosaurus, tetapi sebenarnya, itu membagi bumi menjadi dua semesta paralel: Bumi yang kita tahu disebut sebagai “Bumi-Lainnya” oleh penduduk bumi di mana dinosaurus masih spesies unggul, humanoid Ryujin (Dino orang) dan Bakuryuu (Mecha dinosaurus) ras datang ke berada di DinoEarth tapi berperang dengan Evolians, yang muncul dari meteor.\n Dua Bumi terpisah sampai Asuka, seorang Ryujin dari DinoEarth, tiba di Bumi melalui portal transdimensional. Namun, ia diikuti oleh Evolians di angkasa Anamolicarus dan tiga Bakuryuu di bawah kendali mereka. Lalu Bakuryuus Tyrannosaurus, Ptreranodon, dan Triceratops menyerang Tokyo, panggilan dikirim ke orang-orang yang memiliki DinoGuts dan potensi mendapatkan kekuatan untuk menjinakkan Bakuryuu yang mengamuk. Bersama dengan rekan Bakuryuu mereka, tiga orang yang diakui oleh tiga Bakuryuu menjadi Abaranger untuk melindungi mereka dari dimensi Evolians.",
+    gambarUtama: "image_source/abaranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2003_abaranger/images/aba-rg-ryouga.jpg",
+      "http://supersentai.com/database/2003_abaranger/images/aba-rg-yukito.jpg",
+      "http://supersentai.com/database/2003_abaranger/images/aba-rg-ranru.jpg",
+      "http://supersentai.com/database/2003_abaranger/images/aba-rg-asuka.jpg",
+      "http://supersentai.com/database/2003_abaranger/images/aba-rg-mikoto.jpg"
+    ],
+    listNamaTokoh: [
+      "Ryouga Hakua",
+      "Yukito Sanjo",
+      "Ranru Itsuki",
+      "Asuka",
+      "Mikoto Nakadai"
+    ],
+    urlVideo: "https://ryuzakilogia.net/bakuryuu-sentai-abaranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=abaranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?from=omnisearch&from_keyword_history=false&search%5Bkeywords%5D=abaranger&search_source=omnisearch_keyword&source=navbar"
+  ),
+  Sentai(
+    namaSentai: "Tokusou Sentai Dekaranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2004 - 2005",
+    deskripsiSentai: "Dekaranger merupakan Sentai yang berkisah tentang Kepolisian Luar Angkasa yang disebut SPD (Special Police Dekaranger) di cabang Bumi yang terdiri dari 5 Anggota + 1 Additional anggota, juga ditambah 1 Mentor dan 1 Ilmuwan yang saling bekerja sama untuk mengalahkan sindikat kejahatan yang disebut Alienizer. Sindikat ini dipimpin oleh Agent Abrera yang terkenal sangat kuat dan kejam. Oleh karena itu, Dekaranger berjuang bersama untuk membasmi sindikat kejahatan tersebut yang berkeliaran di bumi.",
+    gambarUtama: "image_source/dekaranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-ban.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-hoji.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-sen.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-jasmine.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-umeko.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-tetsu.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-doggie.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-swan.jpg",
+      "http://supersentai.com/database/2004_dekaranger/images/deka-rg-lisa.jpg"
+    ],
+    listNamaTokoh: [
+      "Akaza Banban",
+      "Hoji Tomasu",
+      "Senichi Enari",
+      "Jasmine Marika",
+      "Umeko Kodou",
+      "Tekkan Aira"
+      "Doggy Krueger",
+      "Swan Shiratori",
+      "Lisa Teagle"
+    ],
+    urlVideo: "https://krdl.moe/show/tokusou-sentai-dekaranger",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=dekaranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=dekaranger"
+  ),
+  Sentai(
+    namaSentai: "Mahou Sentai Magiranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2005 - 2006",
+    deskripsiSentai: "Jaman dahulu kala, terjadi peperangan antara Infershia dan Magitopia. Kekalahan dialami oleh Infershia dan mereka disegel di dalam Bumi. Setelah 15 tahun kemudian, Infershia bangkit untuk balas dendam dari penyegelan mereka dan mereka dipimpin oleh N Ma. Oleh karena itu, Keluarga Ozu, yang merupakan keturunan penduduk Magitopia ditakdirkan untuk menghadapi para Infershia dari kekuatannya yang menaungi bumi. Berawal dari 5 Ozu bersaudara, mereka berkerja sama untuk membasmi para Infershia di bumi.",
+    gambarUtama: "image_source/magiranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-kai.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-tsubasa.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-urara.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-houka.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-makito.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-hikaru.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-miyuki.jpg",
+      "http://supersentai.com/database/2005_magiranger/images/magi-rg-isamu.jpg"
+    ],
+    listNamaTokoh: [
+      "Kai Ozu",
+      "Tsubasa Ozu",
+      "Urara Ozu",
+      "Houka Ozu",
+      "Makito Ozu",
+      "Hikaru",
+      "Miyuki Ozu",
+      "Isamu Ozu"
+    ],
+    urlVideo: "https://ryuzakilogia.net/mahou-sentai-magiranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=magiranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=magiranger"
+  ),
+  Sentai(
+    namaSentai: "GoGo Sentai Boukenger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2006 - 2007",
+    deskripsiSentai: "Sentai Anniversary ke 30 ini bercerita tentang sebuah organisasi bebas pemerintah, yakni SGS Foundation berdedikasi untuk Mengumpulkan harta berharga dari seluruh dunia. Harta ini mungkin peninggalan peradaban kuno, kekayaan lama terlupakan yang terkubur di bawah gelombang laut, atau bahkan hewan yang di ambang kepunahan! Di antara harta ini punya kekuatan dan berbahaya yang melampaui kemampuan ilmu pengetahuan modern– dijuluki 'Precious.'Jadi SGS membentuk tim rahasia untuk memburu dan mengumpulkan Precious!Peninggalan kuat yang dikenal sebagai 'Precious' telah mulai muncul di seluruh dunia. Namun, berbagai sindikat Negatif ingin mengambil Precious untuk diri mereka sendiri dan memanfaatkan mereka untuk sarana kejahatan. Untuk memastikan bahwa Preciousa tidak jatuh ke tangan sindikat negatif, SGS Foundation telah mengembangkan tim operasi khusus, yaitu Boukenger, untuk melakukan pertempuran dan mengumpulkan beberapa Precious yang lebih berbahaya.",
+    gambarUtama: "image_source/boukenger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2006_boukenger/images/bou-rg-satoru.jpg",
+      "http://supersentai.com/database/2006_boukenger/images/bou-rg-inou.jpg",
+      "http://supersentai.com/database/2006_boukenger/images/bou-rg-shouta.jpg",
+      "http://supersentai.com/database/2006_boukenger/images/bou-rg-natsuki.jpg",
+      "http://supersentai.com/database/2006_boukenger/images/bou-rg-sakura.jpg",
+      "http://supersentai.com/database/2006_boukenger/images/bou-rg-eiji.jpg"
+    ],
+    listNamaTokoh: [
+      "Akashi Satoru",
+      "Inou Masumi",
+      "Shouta Mogami",
+      "Natsuki Mamiya",
+      "Sakura Nishibori",
+      "Eiji Takaoka"
+    ],
+    urlVideo: "https://ryuzakilogia.net/gogo-sentai-boukenger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=boukenger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=boukenger"
   )
 ];
