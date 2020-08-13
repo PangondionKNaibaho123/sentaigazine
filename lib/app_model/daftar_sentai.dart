@@ -6,7 +6,7 @@ List<Sentai> modelSentaiList = [
       companyProduksi: "TOEI Company",
       tahunProduksi: "1975-1977",
       deskripsiSentai:
-          "Himitsu Sentai Goranger merupakan generasi pertama dalam Super Sentai. Sentai ini memiliki jumlah episode sebanyak 84 episode. Sentai ini bercerita tentang",
+          "Himitsu Sentai Goranger merupakan generasi pertama dalam Super Sentai. Sentai ini memiliki jumlah episode sebanyak 84 episode. Sentai ini bercerita tentang perdamaian dunia yang sudah mulai bermasalah. Karena perdamaian dunia tidak seimbang karena munculnya Tentara Palang Hitam, PBB telah membentuk organisasi penjaga perdamaian yang disebut 'EAGLE' atau Liga Penjaga Bumi untuk memerangi kelompok teroris berbahaya. Setelah penempatan pangkalan EAGLE di seluruh Jepang, Tentara Palang Hitam melakukan serangan diam-diam di lima pangkalan EAGLE yang menyebabkan semua personel tewas kecuali lima anggota dari lima pangkalan yang hancur. Para penyintas dipanggil ke markas rahasia EAGLE yang terletak di bawah toko makanan ringan di mana mereka telah dipilih oleh Komandan Gonpachi Edogawa untuk menjadi Penjaga Skuadron Rahasia EAGLE. Mengingat kekuatan lima pakaian pertempuran elektronik multi-warna, Gorengers adalah peluang terbaik Bumi untuk mengalahkan seluruh kekuatan Tentara Palang Hitam.",
       gambarUtama: "image_source/goranger.jpeg",
       urlGambarTokoh: [
         "http://supersentai.com/database/1975_goranger/images/go-rg-tsuyoshi.jpg",
@@ -34,7 +34,7 @@ List<Sentai> modelSentaiList = [
       companyProduksi: "TOEI Company",
       tahunProduksi: "1977",
       deskripsiSentai:
-          "JAKQ Dengeketai merupakan generasi kedua dari Super Sentai setelah selesainya serial Goranger",
+          "JAKQ Dengeketai merupakan generasi kedua dari Super Sentai setelah selesainya serial Goranger. Sentai ini bercerita tentang hadirnya organisasi Kejahatan yang dipimpin oleh Iron Claw memiliki misi tunggal untuk menjadi sindikat paling kuat di dunia dengan mempekerjakan pasukan preman bertopeng kulit dan pembunuh cyborg untuk membantu dalam berbagai aktivitas ilegal. Untuk menetralisir kelompok ini, ISSIS (International Science Special-Investigation Squad) dibentuk dengan menempatkan berbagai faksi di seluruh dunia termasuk salah satunya di Tokyo, Jepang. Komandan cabang Jepang, Daisuke Kujirai a.k.a. Komandan Joker telah mengusulkan eksperimen peningkatan cyborg yang akan membantu ISSIS. Dengan merekrut empat orang dewasa muda masing-masing dengan pekerjaan dan latar belakang yang berbeda, tim yang baru dibentuk ini menjadi J.A.K.Q. Dengeketai. Empat cyborg bionik dengan motif kartu remi memiliki kemampuan dan teknologi untuk menghancurkan Organisasi Kejahatan Iron Claw.",
       gambarUtama: "image_source/jakq.jpeg",
       urlGambarTokoh: [
         "http://4.bp.blogspot.com/-J-ImQxUJHb8/T_aijpBzJaI/AAAAAAAAPS0/IhrctzHwXs8/s1600/jakq-rg-ace.jpg",
@@ -59,7 +59,7 @@ List<Sentai> modelSentaiList = [
     namaSentai: "Battle Fever J",
     companyProduksi: "TOEI Company, Marvel Comics",
     tahunProduksi: "1979 - 1980",
-    deskripsiSentai: "Battle Fever J, merupakan generasi ketiga dari Super Sentai setelah suksesnya mengusung generasi kedua nya. Cerita Sentai ini bermula ketika",
+    deskripsiSentai: "Battle Fever J, merupakan generasi ketiga dari Super Sentai setelah suksesnya mengusung generasi kedua nya. Cerita Sentai ini bermula ketika hadir sebuah sindikat kejahatan bernama Secret Society Egos yang berencana untuk mengirim dunia ke dalam kekacauan yang tak terduga, Jenderal Tetsuzan Kurama dari Kementerian Pertahanan Nasional mengumpulkan tim yang terdiri dari lima agen mudanya yang paling tepercaya. Setiap agen sebelumnya menjalani pelatihan di negara tempat mereka secara resmi tinggal dan menggunakan keterampilan mereka sebagai 'Tim Fever' yang mengenakan pakaian bertenaga yang mewakili setiap negara yang mereka kenal masing-masing.",
     gambarUtama: "image_source/battle_fever_j.jpeg",
     urlGambarTokoh: [
       "http://supersentai.com/database/1979_battle_fever_j/images/battle-rg-den.jpg",
@@ -85,7 +85,7 @@ List<Sentai> modelSentaiList = [
     namaSentai: "Denshi Sentai Denjiman",
     companyProduksi: "TOEI Company, Marvel Comics",
     tahunProduksi: "1980 - 1981",
-    deskripsiSentai: "Denshi Sentai Denjiman merupakan serial Super Sentai ke empat yang bercerita mulanya ketika",
+    deskripsiSentai: "Denjiman bercerita dimulai pada 3000 tahun yang lalu, Klan Vader menghancurkan Denzi Star. Denji Land, sebuah pulau dari Denji Star, mendarat di Bumi. Di zaman modern, komputer Denziland membangunkan IC Denzidog ketika mendeteksi Klan Vader mendekati Bumi. IC menemukan lima orang muda (yang mungkin atau mungkin bukan keturunan orang Denzi) menjadi Denzimen untuk mempertahankan Bumi, target Klan Vader berikutnya. Denjiman memulai rekor kesuksesan yang panjang dengan mengalahkan Monster Vader nomor 00, Flying Squirreler.",
     gambarUtama: "image_source/denjiman.jpeg",
     urlGambarTokoh: [
       "http://supersentai.com/database/1980_denjiman/images/denji-rg-akaki.jpg",
@@ -109,7 +109,7 @@ List<Sentai> modelSentaiList = [
     namaSentai: "Taiyo Sentai Sun Vulcan",
     companyProduksi: "TOEI Company, Marvel Comics",
     tahunProduksi: "1981 - 1982",
-    deskripsiSentai: "Taiyo Sentai Sun Vulcan merupakan Sentai ke 5 sekaligus Sentai pertama yang berformat 3 orang saja dan semuanya adalah pria. Sentai ini bercerita tentang",
+    deskripsiSentai: "Taiyo Sentai Sun Vulcan merupakan Sentai ke 5 sekaligus Sentai pertama yang berformat 3 orang saja dan semuanya adalah pria. Sentai ini bercerita dimana adanya ancaman dari Machine Empire Black Magma menyebabkan Perserikatan Bangsa-Bangsa mendirikan Taiyo Sentai Sun Vulcan. Mereka dibentuk dari angkatan udara, angkatan laut, angkatan darat, dan penjaga Penjaga Perdamaian Dunia (GWP) PBB, Komandan Arashiyama yang kemudian mengumpulkan tiga orang tersebut menjadi Sun Vulcan.",
     gambarUtama: "image_source/sun_vulcan.jpeg",
     urlGambarTokoh: [
       "http://supersentai.com/database/1981_sun_vulcan/images/sun-rg-ryusuke.jpg",
@@ -131,7 +131,7 @@ List<Sentai> modelSentaiList = [
     namaSentai: "Dai Sentai Goggle-V",
     companyProduksi: "TOEI Company",
     tahunProduksi: "1982 - 1983",
-    deskripsiSentai: "Dai Sentai Goggle-V merupakan Sentai ke 6 yang pertama kali tampil dan pernah live di Indonesia. Cerita Sentai ini bermula ketika",
+    deskripsiSentai: "Dai Sentai Goggle-V merupakan Sentai ke 6 yang pertama kali tampil dan pernah live di Indonesia. Cerita Sentai ini bermula pada zaman kuno, dimana Dark Science Empire Deathdark selalu terbaring dalam bayang-bayang, memanipulasi kemajuan berbagai ilmu pengetahuan yang biasanya menyebabkan kehancuran banyak nyawa manusia, serta bertanggung jawab atas runtuhnya berbagai peradaban kuno. Saat ini, Dr. Hideki Hongou, yang sudah menyadari keberadaan Deathdark, membentuk Laboratorium Sains Masa Depan untuk suatu hari melawan kebangkitan Deathdark dan mengajar masa depan tentang sains yang membangun dan baik.",
     gambarUtama: "image_source/gogglev.jpeg",
     urlGambarTokoh: [
       "http://supersentai.com/database/1982_goggle_five/images/goggle-rg-akama.jpg",
