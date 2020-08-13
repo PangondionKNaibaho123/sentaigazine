@@ -56,11 +56,11 @@ class _ProgressOpenerScreen extends State<ProgressOpenerScreen>{
                 ),
                 Container(
                   height: 100,
-                  width: 200,
+                  width: 300,
                   child: Text(
                     "SentaiGazine",
                     textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.white, fontSize: 30),
+                    style: fontOpening,
                   ),
                 ),
                 Container(
@@ -82,3 +82,5 @@ class _ProgressOpenerScreen extends State<ProgressOpenerScreen>{
   }
 
 }
+
+var fontOpening = TextStyle(color: Colors.white, fontSize: 40, fontFamily: 'Montserrat_Alternates');

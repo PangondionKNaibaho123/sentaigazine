@@ -901,5 +901,29 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://ryuzakilogia.net/kaizoku-sentai-gokaiger/",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=gokaiger",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=gokaiger"
+  ),
+  Sentai(
+    namaSentai: "Tokumei Sentai Go-Busters",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2012 - 2013",
+    deskripsiSentai: "Sentai ini bercerita tentang sebuah perusahaan yang mengembangkan sebuah resource baru yakni enetron, sebuah resource yang dapat digunakan untuk kegiatan sehari-hari. Selain itu mereka juga membuat sebuah teknologi berupa megazord yang bertujuan untuk membantu kehidupan manusia dalam skala yang besar, dan perusahaan ini dipimpin oleh ayah Hiromu (Red Busters). Sampai pada suatu ketika terjadi sebuah insiden dimana ada virus berupa program yang sangat kuat yang mengambil alih kendali seluruh perusahaan, virus tersebut bernama 'Messiah'. Virus ini dapat menyentuh ranah objek nyata dan dapat memanipulasi objek tersebut. Karena virus ini sudah berhasil mengambil alih perusahaan ini, virus tersebut berniat menguasai dunia melalui resource yang telah ia dapatkan dari perusahaan tersebut, namun rencana tersebut dibatalkan oleh ayah Hiromu. Ia mengirim seluruh perusahaan ke dunia maya agar virus tersebut tidak bisa melancarkan rencana nya. Namun sebelum pengiriman dilakukan, mereka memberikan vaccine program kepada 3 orang anak agar kelak mereka dapat men-shutdown Messiah. Ketiga anak yang terpilih tersebut adalah Hiromu, Yoko, dan Ryuji. Setelah mereka diberi vaccine program, mereka kembali keluar dari perusahaan tersebut bersama 3 buddyroid mereka dengan selamat.\n13 tahun mereka dilatih bersama buddyroid mereka untuk melakukan shutdown setiap musuh yang dibangkitkan oleh tangan kanan Messiah, yakni sebuah avatar bernama Enter. Kini mereka siap menjadi pasukan khusus bernama Go-Busters.",
+    gambarUtama: "image_source/go_busters.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2012_go-busters/images/gobus-rg-hiromu.jpg",
+      "http://supersentai.com/database/2012_go-busters/images/gobus-rg-ryuji.jpg",
+      "http://supersentai.com/database/2012_go-busters/images/gobus-rg-yoko.jpg",
+      "http://supersentai.com/database/2012_go-busters/images/gobus-rg-masato.jpg",
+      "http://supersentai.com/database/2012_go-busters/images/gobus-rg-beetjstag.jpg"
+    ],
+    listNamaTokoh: [
+      "Hiromu Sakurada",
+      "Ryuji Iwasaki",
+      "Yoko Usami",
+      "Jin Masato",
+      "Beet J Stag"
+    ],
+    urlVideo: "https://www.downloadbatch.net/tokumei-sentai-go-busters-sub-indo/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=go%20buster",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=go%20busters"
   )
 ];

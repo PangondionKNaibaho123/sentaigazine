@@ -93,6 +93,13 @@ flutter:
     - image_source/shinkenger.jpeg
     - image_source/goseiger.jpeg
     - image_source/gokaiger.jpeg
+    - image_source/go_busters.jpeg
+
+
+  fonts:
+    - family: Montserrat_Alternates
+      fonts:
+       - asset: fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
