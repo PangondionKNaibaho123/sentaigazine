@@ -765,5 +765,141 @@ List<Sentai> modelSentaiList = [
     urlVideo: "https://ryuzakilogia.net/gogo-sentai-boukenger/",
     urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=boukenger",
     urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=boukenger"
+  ),
+  Sentai(
+    namaSentai: "Jyuken Sentai Gekiranger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2007 - 2008",
+    deskripsiSentai: "4000 tahun yang lalu, lahir sebuah ajaran bela diri yakni bela diri binatang (Jyuken). Siapapun yang mempraktikkan gaya bela diri ini kemampuan hewan serta mencapai kedamaian spiritual. Setalah sekian lama berkembang, tumbuh lah kelompok orang yang menggunakan Jyuken ke arah kejahatan, begitupun juga ada yang menggunakan nya ke arah yang baik. RinJyuden AkuGata, merupakan sebuah sekolah Jyuken yang bertujuan untuk mengubah dunia menjadi kekacauan dengan mengumpulkan jeritan dan keputusasaan orang-orang. Oleh karena itu Sekolah Jyuken yang berniat menciptakan perdamaian pada dunia, yakni GekiJyuken Beast Arts tidak tinggal diam. Di sekolah itu mereka merekrut murid-murid yang handal dan menjadikan mereka sebagai Gekiranger. dari sanalah awal mula cerita Gekiranger untuk melindungi dunia dari serangan RinJyuden AkuGata",
+    gambarUtama: "image_source/gekiranger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-jan.jpg",
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-ran.jpg",
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-retsu.jpg",
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-gou.jpg",
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-ken.jpg",
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-rio.jpg",
+      "http://supersentai.com/database/2007_gekiranger/images/geki-rg-mele.jpg"
+    ],
+    listNamaTokoh: [
+      "Jan Kandou",
+      "Ran Uzaki",
+      "Retsu Fukami",
+      "Gou Fukami",
+      "Ken Hisatsu",
+      "Rio",
+      "Mele"
+    ],
+    urlVideo: "https://ryuzakilogia.net/juken-sentai-gekiranger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=gekiranger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=gekiranger"
+  ),
+  Sentai(
+    namaSentai: "Engine Sentai Go-Onger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2008 - 2009",
+    deskripsiSentai: "Dunia Mesin adalah salah satu dari 11 Dunia Dunia selain milik kita, yang disebut sebagai Dunia Manusia. Dunia Mesin adalah rumah bagi makhluk kendaraan raksasa yang disebut Mesin yang berperang melawan Gaiark, yang ingin mencemari dunia mereka. Kalah, tiga Menteri Polusi Gaiark melarikan diri ke Bumi, melihat Dunia Manusia sebagai lokasi yang lebih mudah untuk menciptakan surga ideal mereka. Enam Engine berhasil mengejar mereka, memilih lima manusia untuk menjadi partner mereka, Go-Ongers. Tim ini kemudian bergabung dengan Go-On Wings dan Wing Engine mereka, serta Ancient Engines. Bersama-sama mereka melawan Gaiark dan penjahat jahat lainnya dari Braneworlds lainnya",
+    gambarUtama: "image_source/goonger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-sosuke.jpg",
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-renn.jpg",
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-saki.jpg",
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-hanto.jpg",
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-gunpei.jpg",
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-hiroto.jpg",
+      "http://supersentai.com/database/2008_go-onger/images/goon-rg-miu.jpg"
+    ],
+    listNamaTokoh: [
+      "Sosuke Esumi",
+      "Renn Kousaka",
+      "Saki Rouyama",
+      "Hanto Jyou",
+      "Gunpei Ishihihara",
+      "Hiroto Suto",
+      "Miu Suto"
+    ],
+    urlVideo: "https://ryuzakilogia.net/engine-sentai-go-onger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=go%20onger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=go%20onger"
+  ),
+  Sentai(
+    namaSentai: "Samurai Sentai Shinkenger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2009 - 2010",
+    deskripsiSentai: "Selama 18 generasi, para Samurai dari Klan Shiba terus melindungi dunia dari niat jahat Gedoshuu, yakni sekumpulan roh- roh jahat yang berniat memusnahkan manusia. Mereka selalu berusaha menekan Gedoshuu dengan menyegel mereka. Tidak berselang lama, Gedoshuu pun kembali bangkit dan diperlukan kembali shinkenger untuk mencegah mereka. Namun pada generasi yang saat ini terpilih, terdapat sedikit perbedaan dimana tugas tersebut seharusnya dipimpin oleh seorang Keluarga primer di kerturunan Shiba, namun dikarenakan beberapa alasan, seorang pria dari keluarga sekunder lah yang terpilih untuk menjadi suksesor Generasi sebelumnya, yakni Shiba Takeru. Ia pun mengajak teman-teman masa kecilnya untuk menemani dia dalam perjalanan nya untuk menyegel Gedoshuu.",
+    gambarUtama: "image_source/shinkenger.jpeg",
+    urlGambarTokoh: [
+      "https://vignette.wikia.nocookie.net/galaxyofchaos/images/d/d9/Shinken-rg-takeru.jpg/revision/latest?cb=20181101093204",
+      "https://vignette.wikia.nocookie.net/galaxyofchaos/images/b/b9/Shinken-rg-ryunosuke.jpg/revision/latest?cb=20181202143502",
+      "https://vignette.wikia.nocookie.net/galaxyofchaos/images/6/6c/Shinken-rg-chiaki.jpg/revision/latest?cb=20181203105237",
+      "https://vignette.wikia.nocookie.net/galaxyofchaos/images/c/c1/Shinken-rg-kotoha.jpg/revision/latest?cb=20181203105315",
+      "https://vignette.wikia.nocookie.net/galaxyofchaos/images/2/2a/Shinken-rg-mako.jpg/revision/latest?cb=20181202191033",
+      "https://shinkengerbr.files.wordpress.com/2010/11/gold2.jpg",
+      "https://vignette.wikia.nocookie.net/galaxyofchaos/images/3/3e/Shinken-rg-kaoru.jpg/revision/latest?cb=20181101093313"
+    ],
+    listNamaTokoh: [
+      "Shiba Takeru",
+      "Ikenami Ryonosuke",
+      "Tani Chiaki",
+      "Hanaori Kotoha",
+      "Shiraishi Mako",
+      "Umemori Genta",
+      "Shiba Kaoru"
+    ],
+    urlVideo: "https://ryuzakilogia.net/samurai-sentai-shinkenger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=shinkenger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=shinkenger"
+  ),
+  Sentai(
+    namaSentai: "Tensou Sentai Goseiger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2010 - 2011",
+    deskripsiSentai: "Di dunia ini, terdapat sebuah dimensi yang tidak bisa dijangkau manusia, yakni dunia para entitas humanoid yang disebut Gosei-Tenshi. Mereka memiliki misi untuk melindungi Planet, termasuk bumi. Ketika bumi ditargetkan oleh kekuatan invasi makhluk jahat yang disebut Warstar. Mereka menghancurkan Tower Surga (塔 天 の Ten no Tō?), jembatan antara Bumi dan Dunia Gosei, rumah dari Gosei Tenshi, untuk menjaga mereka dari campur tangan.Namun, lima prajurit Gosei Malaikat ada di Bumi pada saat itu dan, sambil mencari cara untuk kembali ke rumah, mereka menjadi Goseiger untuk menghentikan Warstar. Namun tak lama setelah itu, Yuumajuu yang mengerikan muncul dari tidur-nya dan Goseiger menerima bantuan dari makhluk khusus yang disebut Gosei Knight yang pernah berjuang melawan Yuumajuu di masa lalu.\nTetapi bahkan setelah mereka mengalahkan Yuumajuu, kejahatan robot Matrintis Empire naik untuk mengambil alih bumi dengan data yang diperoleh dari dua kelompok terakhir. Setelah mereka dikalahkan, Goseiger menghadapi musuh terbesar mereka yang telah memanipulasi kelompok lain sejak awal: Gosei Malaikat yang mengambil misi mereka untuk melindungi Bumi dengan resiko yang berbahaya dengan merencanakan untuk menghancurkan semua kehidupan dan menciptakan ulang dunia sesuai keinginannya.",
+    gambarUtama: "image_source/goseiger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2010_goseiger/images/gosei-rg-alata.jpg",
+      "http://supersentai.com/database/2010_goseiger/images/gosei-rg-hyde.jpg",
+      "http://supersentai.com/database/2010_goseiger/images/gosei-rg-agri.jpg",
+      "http://supersentai.com/database/2010_goseiger/images/gosei-rg-moune.jpg",
+      "http://supersentai.com/database/2010_goseiger/images/gosei-rg-eri.jpg",
+      "http://supersentai.com/database/2010_goseiger/images/gosei-rg-knight.jpg"
+    ],
+    listNamaTokoh: [
+      "Alata",
+      "Hyde",
+      "Agri",
+      "Moune",
+      "Eri",
+      "Gosei Knight"
+    ],
+    urlVideo: "https://ryuzakilogia.net/tensou-sentai-goseiger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=goseiger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=goseiger"
+  ),
+  Sentai(
+    namaSentai: "Kaizoku Sentai Gokaiger",
+    companyProduksi: "TOEI Company, TV Asahi",
+    tahunProduksi: "2011 - 2012",
+    deskripsiSentai: "Sentai Anniversary ke 35 ini bercerita dimulai pada masa setelah beberapa lama terjadinya kedamaian oleh perjuangan Goseiger dalam menumpas Bladerun dan kerajaan nya, Muncul Kekaisaran Luar Angkasa Zangyack yang ingin mencoba menginvasi Bumi. Melihat kejadian itu, Goseiger dan ke 33 generasi Sentai lainnya tidak tinggal diam dan berusaha untuk melawan kekaisaran Zangyack. Mereka mengerahkan semua kekuatan mereka yang ada untuk menghancurkan seluruh pasukan dan armada kapal yang ada datang ke bumi. Mereka semua mengorbankan kekuatan mereka agar seluruh awak kapal Zangyack yang datang ke bumi hancur. Namun hal ini mengakibatkan seluruh kekuatan 34 Sentai menyebar ke seluruh angkasa dan membuat mereka tidak bisa berubah menjadi sentai dan menggunakan kekuatan mereka lagi. Perang ini disebut dengan Perang Legendaris.\nBeberapa lama kemudian muncullah kembali Zangyack dengan pasukan yang semakin banyak lagi, dan bersamaan pula datang sekelompok Bajak laut luar angkasa yang ingin memperoleh harta terbesar di alam semesta. Dengan membawa kekuatan dari para Sentai terdahulu, mereka berpetualang di bumi juga mengalahkan Zangyack yang berusaha mengagalkan aksi mereka.",
+    gambarUtama: "image_source/gokaiger.jpeg",
+    urlGambarTokoh: [
+      "http://supersentai.com/database/2011_gokaiger/images/gokai-rg-marvelous.jpg",
+      "http://supersentai.com/database/2011_gokaiger/images/gokai-rg-joe.jpg",
+      "http://supersentai.com/database/2011_gokaiger/images/gokai-rg-don.jpg",
+      "http://supersentai.com/database/2011_gokaiger/images/gokai-rg-luka.jpg",
+      "http://supersentai.com/database/2011_gokaiger/images/gokai-rg-ahim.jpg",
+      "http://supersentai.com/database/2011_gokaiger/images/gokai-rg-gai.jpg"
+    ],
+    listNamaTokoh: [
+      "Captain Marvelous",
+      "Joe Gibken",
+      "Don Dogoier",
+      "Luka Milfy",
+      "Ahim de Famille",
+      "Gai Ikari"
+    ],
+    urlVideo: "https://ryuzakilogia.net/kaizoku-sentai-gokaiger/",
+    urlMerchandise1: "https://www.tokopedia.com/search?st=product&q=gokaiger",
+    urlMerchandise2: "https://www.bukalapak.com/products?search%5Bkeywords%5D=gokaiger"
   )
 ];

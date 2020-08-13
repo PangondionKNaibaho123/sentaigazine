@@ -88,6 +88,11 @@ flutter:
     - image_source/dekaranger.jpeg
     - image_source/magiranger.jpeg
     - image_source/boukenger.jpeg
+    - image_source/gekiranger.jpeg
+    - image_source/goonger.jpeg
+    - image_source/shinkenger.jpeg
+    - image_source/goseiger.jpeg
+    - image_source/gokaiger.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
