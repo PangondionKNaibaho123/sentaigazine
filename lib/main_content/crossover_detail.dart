@@ -30,10 +30,13 @@ class CrossoverDetailScreen extends StatelessWidget{
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Center(
-              child: Image.network(
-                sentaiCrossover.gambarCrossover,
-                height: 400,
+            Container(
+              margin: EdgeInsets.only(top: 20.0),
+              child: Center(
+                child: Image.network(
+                  sentaiCrossover.gambarCrossover,
+                  height: 400,
+                ),
               ),
             ),
             Container(
